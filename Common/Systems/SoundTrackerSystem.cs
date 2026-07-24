@@ -13,7 +13,7 @@ namespace SoundCompass.Common.Systems
 		private const float MaxDistanceTiles = 100f;
 		private const float MaxDistancePixels = MaxDistanceTiles * 16f;
 		private const int MaxEmitters = 96;
-		private const bool EnableEmitterLogging = true;
+		private const bool EnableEmitterLogging = false;
 		private const uint EmitterLogCooldownTicks = 120;
 
 		private static readonly Dictionary<int, uint> _nextLogTickByEmitter = new();
@@ -59,10 +59,6 @@ namespace SoundCompass.Common.Systems
 			for (int i = 0; i < Main.maxNPCs; i++)
 			{
 				NPC npc = Main.npc[i];
-				// if (!npc.active || npc.dontTakeDamage || npc.lifeMax <= 5 || npc.friendly)
-				// {
-				// 	continue;
-				// }
 
 				float distance = Vector2.Distance(player.Center, npc.Center);
 				if (distance > MaxDistancePixels)

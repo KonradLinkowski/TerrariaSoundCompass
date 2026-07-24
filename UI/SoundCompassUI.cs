@@ -13,7 +13,7 @@ namespace SoundCompass.UI
 {
 	public class SoundCompassUI
 	{
-		private const bool DebugOverlay = true;
+		private const bool DebugOverlay = false;
 		private const float RingThickness = 2f;
 		private const float MarkerLength = 10f;
 		private const float MarkerThickness = 2f;
