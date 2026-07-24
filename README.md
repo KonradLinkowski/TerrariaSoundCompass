@@ -24,3 +24,11 @@ When available, markers use real Terraria sprites (NPC, projectile, item icons).
 
 ## Client Config
 You can customize overlay visibility, compass layout, circle radius, border inset, and focus-area filtering in the Mod Config menu.
+
+## Repository
+Source code and issue tracking:
+- https://github.com/KonradLinkowski/TerrariaSoundCompass
+
+## License
+Licensed under the GNU Affero General Public License v3.0 (AGPL-3.0).
+See LICENSE for the full text.
