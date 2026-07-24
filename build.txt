@@ -1,0 +1,3 @@
+displayName = Sound Compass
+author = Konrad Linkowski
+version = 0.1

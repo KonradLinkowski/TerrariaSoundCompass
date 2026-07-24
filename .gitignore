@@ -1,0 +1,17 @@
+# Visual Studio / IDE files
+.vs/
+*.rsuser
+*.suo
+*.user
+*.userprefs
+*.csproj.user
+
+# Build output / compiled binaries
+[Bb]in/
+[Oo]bj/
+build/
+*.tmod
+
+# Operating System files
+.DS_Store
+Thumbs.db

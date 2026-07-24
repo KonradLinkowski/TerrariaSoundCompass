@@ -1,0 +1,49 @@
+Keybinds: {
+	"Toggle Overlay.DisplayName": Toggle  Overlay
+	"Switch Compass Type.DisplayName": Switch  Compass  Type
+}
+
+Configs: {
+	SoundCompassClientConfig: {
+		DisplayName: Sound Compass Client Config
+
+		OverlayEnabled: {
+			Label: Overlay Enabled
+			Tooltip: ""
+		}
+
+		CompassLayout: {
+			Label: Compass Layout
+			Tooltip: ""
+		}
+
+		OutsideFocusAreaOnly: {
+			Label: Outside Focus Area Only
+			Tooltip: ""
+		}
+
+		CircleRadius: {
+			Label: Circle Radius
+			Tooltip: ""
+		}
+
+		BorderInset: {
+			Label: Border Inset
+			Tooltip: ""
+		}
+	}
+
+	CompassLayoutType: {
+		Tooltip: ""
+
+		CenterRing: {
+			Label: Center Ring
+			Tooltip: ""
+		}
+
+		ScreenBorder: {
+			Label: Screen Border
+			Tooltip: ""
+		}
+	}
+}

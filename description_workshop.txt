@@ -1,0 +1,32 @@
+[h1]SoundCompass[/h1]
+
+[i]Directional audio helper overlay for tModLoader.[/i]
+
+[h2]Compass Mode[/h2]
+SoundCompass shows where active sound emitters are around you so you can react faster to threats and activity off-screen.
+
+[list]
+[*][b]Center Ring mode[/b]: markers are placed on a circle around screen center, pointing toward sound sources.
+[*][b]Screen Border mode[/b]: markers are projected to the screen edges in the correct direction.
+[*][b]Outside Focus Area Only[/b]: optionally show only emitters outside your central focus area.
+[*]Distance-based fade: farther emitters are dimmer, close emitters are brighter.
+[/list]
+
+[h2]What It Tracks[/h2]
+[list]
+[*]NPC-based emitters
+[*]Active hostile/friendly moving projectiles
+[*]Your currently used held item while animating
+[/list]
+
+[h2]Markers[/h2]
+When available, markers use real Terraria sprites (NPC, projectile, item icons). If a sprite cannot be resolved, SoundCompass falls back to a clean directional marker.
+
+[h2]Default Controls[/h2]
+[list]
+[*][b]P[/b] - Toggle Overlay
+[*][b]O[/b] - Switch Compass Type (Circle / Screen Border)
+[/list]
+
+[h2]Client Config[/h2]
+You can customize overlay visibility, compass layout, circle radius, border inset, and focus-area filtering in the Mod Config menu.
